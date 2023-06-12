@@ -1,0 +1,28 @@
+.descendant {
+  height: 100px;
+  width: 100px;
+  border: solid 1px black;
+  background-color: #ccc;
+  color: black;
+}
+
+.child {
+  height: 200px;
+  width: 200px;
+  border: solid 1px black;
+  background-color: #999;
+  color: white;
+}
+
+.parent {
+  height: 300px;
+  width: 300px;
+  border: solid 1px black;
+  background-color: #666;
+  color: white;
+}
+
+.event-bubbling {
+  background-color: yellow;
+  color: red;
+}
