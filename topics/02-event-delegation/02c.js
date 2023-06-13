@@ -32,7 +32,7 @@ const generateBoxes = (amount) => {
     box.textContent = i+1;
     boxes.push(box);
   }
-  console.log(boxes);
+  // console.log(boxes);
   boxesContainer.append(...boxes)
 };
 
