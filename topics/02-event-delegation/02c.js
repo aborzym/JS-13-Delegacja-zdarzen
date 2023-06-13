@@ -42,6 +42,7 @@ const resetBoxes = () => {
 }
 
 generateBtn.addEventListener("click", function() {
+  info.innerHTML = '';
   generateBoxes(slider.value)
 });
 resetBtn.addEventListener('click', resetBoxes);
