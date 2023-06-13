@@ -16,7 +16,7 @@ const handleHighlight = (currentTarget, level) => {
   setTimeout(() => {
     currentTarget.classList.remove("event-bubbling");
   }, level * 1000);
-}
+};
 
 const handleBubbling = (e) => {
   // e.stopPropagation();
@@ -30,7 +30,7 @@ const handleBubbling = (e) => {
   } else if (currentTargetId === "child") {
     handleHighlight(currentTarget, 2);
   } else {
-    handleHighlight(currentTarget, 3)
+    handleHighlight(currentTarget, 3);
   }
 };
 
