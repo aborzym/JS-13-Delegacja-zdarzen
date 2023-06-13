@@ -6,7 +6,6 @@ let selectedTd;
 
 table.onclick = function (event) {
   let target = event.target;
-
   while (target != this) {
     if (target.tagName == "TD") {
       highlight(target);
